@@ -1,0 +1,63 @@
+/*START VARIABLES*/
+:root {
+    --color-font-white: aliceblue;
+    --color-font-pink: #fa4c4c;
+    --color-bkc-dark: #454545;
+    --color-primary: #fff;
+    --color-secondary: #fa4c4c;
+
+    --height-header: 100px;
+    --height-footer: 75px;
+}
+
+/*END VARIABLES*/
+/*START GENERALITY*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background-color: var(--color-font-pink);
+    color: var(--color-font-white);
+}
+
+/* Firefox */
+::-moz-selection {
+    background-color: var(--color-font-pink);
+    color: var(--color-font-white);
+}
+
+/*Button*/
+.airfit-btn {
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    width: 120px;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+/*END GENERALITY*/
+/*START HEADER*/
+
+
+/*ANIMATION*/
+
+/*END HEADER*/
+/*START FOOTER*/
+
+/*ANIMATION*/
+
+/*END FOOTER*/
+
+/*MOBILE*/
+@media only screen and (max-width: 768px) {
+
+
+}

@@ -11,4 +11,10 @@ public class MainController {
 
         return "index";
     }
+
+    @GetMapping("/dashboard")
+    public String getDashboard() {
+
+        return "dashboard";
+    }
 }

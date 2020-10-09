@@ -34,39 +34,6 @@
     font-family: 'Ropa Sans', sans-serif;
 }
 
-.index-container h1 {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 0;
-    font-size: 9rem;
-    color: var( --color-pink);
-    z-index: 1;
-    font-family: 'Bangers', cursive;
-}
-
-.index-container h1 > span {
-    color: var(--color-purple);
-}
-
-.fixed-action-btn {
-    right: 50%;
-    bottom: 4rem;
-    transform: translateX(50%);
-}
-
-.fixed-action-btn ul {
-    bottom: 8rem;
-}
-
 .carousel .indicators .indicator-item.active {
     background-color: var(--color-purple);
-}
-
-.flew-over {
-    transition: transform 1s;
-}
-
-.flew-over:hover {
-    transform: scale(1.5);
 }

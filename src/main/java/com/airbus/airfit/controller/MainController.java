@@ -17,4 +17,16 @@ public class MainController {
 
         return "dashboard";
     }
+
+    @GetMapping("/profile")
+    public String getProfile() {
+
+        return "profile";
+    }
+
+    @GetMapping("/about")
+    public String getAbout() {
+
+        return "about";
+    }
 }

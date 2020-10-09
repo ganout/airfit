@@ -1,0 +1,46 @@
+@import "style.css";
+
+.profile-container>img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: top left;
+}
+
+.profile-container-identification {
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    transform: translate(50%, -50%);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.profile-container-identification h2 {
+    color: var(--color-white);
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: auto 0.5rem;
+}
+
+.profile-container-identification a {
+    margin: auto 1rem;
+}
+
+.btn-check {
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+}
+/*MOBILE*/
+@media only screen and (max-width: 768px) {
+
+    .profile-container-identification {
+        width: 100%;
+        right: 50%;
+        transform: translate(50%, -50%);
+        justify-content: center;
+    }
+}

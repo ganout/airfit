@@ -34,6 +34,71 @@ html {
 }
 /* end text selected */
 
+/* Title */
+main {
+    position: relative;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 9rem;
+    color: var( --color-pink);
+    z-index: 1;
+    font-family: 'Bangers', cursive;
+}
+
+h1 > span {
+    color: var(--color-purple);
+}
+
+/*Start btn-menu*/
+.fixed-action-btn {
+    right: 50%;
+    bottom: 4rem;
+    transform: translateX(50%);
+}
+
+.fixed-action-btn ul {
+    bottom: 8rem;
+}
+
+.flew-over {
+    transition: transform 1s;
+}
+
+.flew-over:hover {
+    transform: scale(1.5);
+}
+/*End btn-menu*/
+
+/*Start form's colors*/
+.input-field, .input-field label {
+    color: var(--color-pink);
+}
+
+input[type=text]:not(.browser-default),
+input[type=password]:not(.browser-default) {
+    margin: 0;
+    color: var(--color-dark);
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label{
+    color: var(--color-purple);
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid var(--color-purple);
+    box-shadow: 0 1px 0 0 var(--color-purple);
+}
+/*End form's colors*/
+
 /*END GENERALITY*/
 
 /*MOBILE*/

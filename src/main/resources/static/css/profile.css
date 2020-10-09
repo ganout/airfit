@@ -28,11 +28,19 @@
     margin: auto 1rem;
 }
 
+.modal.modal-fixed-footer .modal-content {
+    overflow-y: visible;
+}
+
 .btn-check {
     position: absolute;
     left: 50%;
-    bottom: 10%;
+    bottom: -5%;
     transform: translateX(-50%);
+}
+
+.modal h4 {
+    text-align: center;
 }
 /*MOBILE*/
 @media only screen and (max-width: 768px) {

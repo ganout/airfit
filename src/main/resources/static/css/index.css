@@ -25,7 +25,7 @@
 .carousel-item h2 {
     width: 90%;
     position: absolute;
-    bottom: 6.5rem;
+    bottom: 10rem;
     left: 50%;
     transform: translate(-50%, -50%);
     color: var(--color-white);

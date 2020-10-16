@@ -10,16 +10,122 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <link href="css/about.css" rel="stylesheet" type="text/css">
     <title>Airfit | À propos</title>
 </head>
 <body>
-<main class="index-container">
+<main class="about-container">
     <h1>Air<span>fit</span></h1>
+    <img src="image/crossfit.jpg" alt="about">
+    <div class="row about-container-infos">
+        <ul class="collapsible" data-collapsible="accordion">
+            <li>
+                <div class="collapsible-header">
+                    <i class="material-icons">fitness_center</i>
+                    Les cours
+                </div>
+                <div class="collapsible-body">
+                    <p>
+                        6 possibilités de cours par semaine,
+                        des coachs diplomés dynamiques et sérieux,
+                        des collègues que l’on voit autrement...
+                    </p>
+                    <div class="activity-container">
+                        <div>
+                            <p>
+                                AIRFIT, en partenariat avec LA PAUSE BASKETS
+                                vous propose deux types d’activités sportives
+                                : du PILATE ou du YOGA.
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                pour une activité douce en toute sérénité,
+                                du CROSS TRAINING ou du RENFORCEMENT MUSCULAIRE
+                                pour une activité plus cardio et dynamique.
+                        </div>
+                    </div>
+                    <p>
+                        faire du sport sur son lieu de travail
+                        c’est aussi ça la QVT. pas de déplacement,
+                        pas de pression, du plaisir pour être en pleine forme.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">
+                    <i class="material-icons">euro_symbol</i>
+                    Les tarifs mi-annuel
+                </div>
+                <div class="collapsible-body">
+                    <table class="centered responsive-table highlight">
+                        <thead>
+                        <tr>
+                            <th>nombre de séance</th>
+                            <th>Airbusiens et conventionnés</th>
+                            <th>Extérieur</th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+                        <tr>
+                            <td>1 par semaine</td>
+                            <td>80 €</td>
+                            <td>95 €</td>
+                        </tr>
+                        <tr>
+                            <td>2 par semaine</td>
+                            <td>110 €</td>
+                            <td>125 €</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">
+                    <i class="material-icons">people</i>
+                    Contact
+                </div>
+                <div class="collapsible-body">
+                    <table class="centered responsive-table highlight">
+                        <thead>
+                        <tr>
+                            <th>présidente</th>
+                            <th>président adjoint</th>
+                            <th>secrétaire</th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+                        <tr>
+                            <td>Dorothée Senez</td>
+                            <td>Renan Gouy</td>
+                            <td>Estelle Elluard</td>
+                        </tr>
+                        <tr>
+                            <td>dorothee.senez@airbus.com</td>
+                            <td>renan.gouy@airbus.com</td>
+                            <td>estelle.eluard@airbus.com</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="fixed-action-btn click-to-toggle">
+        <a class="btn-floating btn-large pink darken-1"><i class="large material-icons">more_vert</i></a>
+        <ul>
+            <li><a href="/profile" class="btn-floating pink darken-1"><i class="material-icons">account_circle</i></a></li>
+            <li><a href="/dashboard" class="btn-floating indigo darken-1"><i class="material-icons">fitness_center</i></a></li>
+            <li><a href="/" class="btn-floating lime accent-4"><i class="material-icons blue-grey-text text-darken-4">home</i></a></li>
+        </ul>
+    </div>
 </main>
 <!--Import jQuery before materialize.js-->
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js" type="text/javascript"></script>
-<script src="js/index.js" type="text/javascript"></script>
+<script src="js/about.js" type="text/javascript"></script>
 </body>
 </html>

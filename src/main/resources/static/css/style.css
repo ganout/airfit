@@ -2,7 +2,7 @@
 :root {
     --color-dark: #263238;
     --color-dark-green: #66bb6a;
-    --color-light-green: #9ccc65;
+    --color-light-green: #aeea00;
     --color-pink: #d81b60;
     --color-purple: #3949ab;
     --color-white: #fff;
@@ -37,7 +37,7 @@ html {
 /* Title */
 main {
     position: relative;
-    max-height: 100vh;
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -58,24 +58,39 @@ h1 > span {
 
 /*Start btn-menu*/
 .fixed-action-btn {
-    right: 50%;
+    position: fixed;
+    text-align: center;
     bottom: 4rem;
-    transform: translateX(50%);
+    left: 0;
+    right: 0;
 }
 
 .fixed-action-btn ul {
-    bottom: 8rem;
+    position: absolute;
 }
 
-.flew-over {
-    transition: transform 1s;
+.fixed-action-btn ul li:first-child {
+    position: absolute;
+    left: 50%;
+    top: -56px;
+    transform: translate(-50%, -25%);
+    margin-top: 15px;
 }
 
-.flew-over:hover {
-    transform: scale(1.5);
+.fixed-action-btn ul li:nth-child(2) {
+    position: absolute;
+    left: 50%;
+    transform: translate(-225%);
+    margin-top: 15px;
+}
+
+.fixed-action-btn ul li:nth-child(3) {
+    position: absolute;
+    left: 50%;
+    transform: translate(125%);
+    margin-top: 15px;
 }
 /*End btn-menu*/
-
 /*Start form's colors*/
 .input-field, .input-field label {
     color: var(--color-pink);
